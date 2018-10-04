@@ -27,7 +27,7 @@ pdf_q11 <- function(q11, p){
 # D matrix discussed in the appendix of the paper.
 Dk <- D_star(k) 
 
-pdf(file='~/Desktop/Unifsim.pdf', width=7, height=5, family='Times')
+pdf(file='Unifsim.pdf', width=7, height=5, family='Times')
 par(mfrow=c(2,2), cex=1, mgp=c(1.75, .75, 0), mai=c())
 
 for(p in c(5, 50)){

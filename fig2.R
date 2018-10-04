@@ -81,7 +81,7 @@ angle_mat_hoff <- as.data.frame(angle_mat_hoff)
 names(angle_mat_hoff) <- c('theta1', 'theta2', 'theta3')
 
 # Begin creating Figure
-pdf(file='~/Desktop/Binghamsim.pdf', width=9, height=7, family='Times')
+pdf(file='Binghamsim.pdf', width=9, height=7, family='Times')
 arrangement <- rbind(c(1,1,1,2,2,2), c(3,3,4,4,5,5))
 layout(arrangement)
 
