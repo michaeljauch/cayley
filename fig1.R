@@ -28,7 +28,7 @@ pdf_q11 <- function(q11, p){
 Dk <- D_star(k) 
 
 pdf(file='Unifsim.pdf', width=7, height=5, family='Times')
-par(mfrow=c(2,2), cex=1, mgp=c(1.75, .75, 0), mai=c())
+par(mfrow=c(2,2), cex=1, mgp=c(1.75, .75, 0))
 
 for(p in c(5, 50)){
   
